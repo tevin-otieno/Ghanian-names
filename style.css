@@ -2,4 +2,87 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-align: center;
+    font-size: xx-large;
+}
+body{
+    background: brown;
+}
+.container{
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+    border: black 3px solid;
+    display: flex;
+}
+.answer{
+    width: 50%;
+    margin: auto;
+}
+.input{
+    width: 50%;
+    margin: auto;
+}
+.date{
+    display: flex;
+    justify-content: space-around;
+}
+label{
+    display: block;
+    text-align: left;
+}
+input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 14px;
+	padding: 4px;
+    width: 3rem;
+}
+.gender {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    user-select: none;
+}
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"] + label {
+    z-index: 10;
+    margin: 0 10px 10px 0;
+    position: relative;
+    color: #ced4da;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 2px solid #ced4da;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+input[type="radio"]:checked + label {
+    color: #495057;
+    background-color: #ced4da;
+}
+input[type="radio"] + label {
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.title{
+    padding: 1rem;
+}
+.space{
+    padding: 1rem;
+}
+
+
+@media only screen and (max-width: 640px)  
+{
+    .container{
+        flex-direction: column;
+    }
 }
