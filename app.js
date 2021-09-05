@@ -83,18 +83,19 @@ function myFunction(){
                 break;
         }
     };
-
+    //taking the output and displaing it on the html so as to be viewed.
     document.getElementById("doweek").innerText = nameOfDay;
     document.getElementById("akana").innerText = aName;
-
-    console.log(d);
-    console.log(m);
-    console.log(y);
-    console.log(g);
-    console.log(yone);
-    console.log(ytwo);
-    console.log(dayofWeek);
-    console.log(nameOfDay);
-    console.log(aName);
 };
+// calling my function.
 myFunction();
+
+function sidePanel() {
+    var x = document.getElementById("panelOpen");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+};
+sidePanel();

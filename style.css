@@ -17,6 +17,37 @@ body{
 p{
     color:#ffff;
 }
+button{
+    position: absolute;
+    right: 2vw;
+    top: 2vh;
+    background: none;
+}
+#panelOpen{
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: 20vh;
+    left: 16vw;
+    width: 68vw;
+    border: solid black 3px;
+}
+/*
+.panelOpen{
+    position: absolute;
+    z-index: 5;
+    top: 10vh;
+    left: 50vw;
+    bottom: 0px;
+    width: 60vw;
+    -webkit-transform: translate3d(50vw, 0, 0);
+    transition: 0.5s ease-in;
+    background-color: purple;
+}
+.panelClose{
+    -webkit-transform: translate3d(0, 0, 0);
+}*/
+
 #doweek, #akana{
     font-family: 'Frijole', cursive;
     margin: 1rem 0 1rem 0;
