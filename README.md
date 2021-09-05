@@ -6,6 +6,12 @@ This is a website that gives you a Ghanaian name when you input the birthday dat
 
 ![Portfolio design](./Screenshot%20from%202021-09-06%2000-10-34.png)
 
+## Livelink
+
+<https://tevin-otieno.github.io/Ghanian-names/>
+
+This is the basic way to experience the website but you can clone and see what you can add or even improve on the calculation formular.
+
 ## Technologies Used
 
 This website was built purely by HTML, CSS and pure Javascript code and ofcourse the images contained in the assets folder.
