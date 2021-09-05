@@ -1,7 +1,7 @@
-var d = 05;//document.getElementById("day");
-var m = 09;//document.getElementById("month");
-var y = 2021//document.getElementById("year");
-var g = "male";//document.getElementById("Gender");
+var d = document.getElementById("day").value;
+var m = document.getElementById("month").value;
+var y = document.getElementById("year").value;
+var g = 'female';//document.getElementById("Gender");
 //Turning year to array
 var yarr = Array.from(String(y), Number);
 //getting the first two digits of year (1987)
@@ -84,14 +84,15 @@ if (g=="male"){
             break;
     }
 };
-var pone = document.getElementById("doweek").innerText
-var ptwo = document.getElementById("akana").innerText
+var pone = nameOfDay;
+var ptwo = aName;
 
-function myFunction(){
-    console.log(nameOfDay);
-    console.log(aName);
-    document.getElementById("doweek").innerText = nameOfDay;
-    document.getElementById("akana").innerText = aName;
+function myFunction( pone, ptwo){
+    console.log(pone);
+    console.log(ptwo);
+    document.getElementById("doweek").innerText = pone;
+    document.getElementById("akana").innerText = ptwo;
 };
-myFunction()
+
+myFunction(pone, ptwo);
   
