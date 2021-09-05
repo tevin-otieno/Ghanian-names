@@ -19,7 +19,8 @@ function weekDay (yone, ytwo, m, d){
     };
     return dayofWeek;
 };
-var dayOne = weekDay (yone, ytwo, m, d);
+var dayOne = Math.abs(weekDay (yone, ytwo, m, d));
+console.log(dayOne)
 
 if (g=="male"){
     switch (dayOne){
