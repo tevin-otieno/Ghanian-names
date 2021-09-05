@@ -93,10 +93,7 @@ input[type="radio"] + label {
     padding: 5px 20px;
     border-radius: 10px;
 }
-.title{
-    padding: 1rem;
-}
-.space{
+.title, .space{
     padding: 1rem;
 }
 
@@ -105,5 +102,19 @@ input[type="radio"] + label {
 {
     .container{
         flex-direction: column;
+    }
+    p{
+        font-size: large;
+    }
+    #doweek, #akana{
+        margin: 8px 0 8px 0;
+        font-size: large;
+    }
+    .title, .space{
+        padding: 0;
+        margin: 8px 0 8px 0;
+    }
+    input{
+        width: 2rem;
     }
 }

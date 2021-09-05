@@ -10,9 +10,9 @@
 <body>
   <div class="container">
     <div class="answer">
-      <p>you were born on a</p>
+      <p>You were born on</p>
       <p id="doweek"></p>
-      <p>your ankara name is</p>
+      <p>Your Ankara name is</p>
       <p id="akana"></p>
     </div>
     <div class="input">
@@ -21,15 +21,15 @@
         <div class="date">
           <div >
             <label for="Day">Day</label>
-            <input type="number" name="day" id="day" placeholder="DD">
+            <input type="number" name="day" id="day" placeholder="DD" min="1" max="31" required>
           </div>
           <div>
             <label for="Month">Month</label>
-            <input type="number" name="month" id="month" placeholder="MM">
+            <input type="number" name="month" id="month" placeholder="MM" min="1" max="12" step="1" required>
           </div>
           <div>
             <label for="Year">Year</label>
-            <input type="number" name="year" id="year" placeholder="YYYY">
+            <input type="number" name="year" id="year" placeholder="YYYY" required>
           </div>
         </div>
         <p class="space">Gender...?</p>
