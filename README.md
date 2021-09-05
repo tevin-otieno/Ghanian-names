@@ -1,5 +1,7 @@
 # Ghanian-names
 
+**This website was created by yours truly Tevin Otieno On 4th September 2021**
+
 This is a website that gives you a Ghanaian name when you input the birthday date and gender. This website is a good platform to share the cultural practices of the world.
 
 ![Portfolio design](./Screenshot%20from%202021-09-06%2000-10-34.png)
@@ -14,7 +16,7 @@ None so far but am not sure with the fomular on the page calculator it needs som
 
 ## Support and contact details
 
-please do not hesitate to email the creator of the website when you encounter any inconvenience. 
+please do not hesitate to email the creator of the website when you encounter any inconvenience.
 
 ### License
 
