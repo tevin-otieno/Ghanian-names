@@ -7,7 +7,7 @@
     box-sizing: border-box;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: larger;
+    font-size: x-large;
 }
 body{
     background: url(./background.svg);
@@ -32,6 +32,7 @@ button{
     width: 68vw;
     border-radius: 16px;
     background-color: #ffffff;
+    padding: 8px;
 }
 .center{
     margin: auto;
