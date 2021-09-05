@@ -89,7 +89,7 @@ function myFunction(){
 };
 // calling my function.
 myFunction();
-
+// toggole the about div to display none or block when clicked
 function sidePanel() {
     var x = document.getElementById("panelOpen");
     if (x.style.display === "none") {
