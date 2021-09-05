@@ -6,8 +6,8 @@
     margin: 0;
     box-sizing: border-box;
     text-align: center;
-    font-size: xx-large;
     font-family: 'Roboto', sans-serif;
+    font-size: larger;
 }
 body{
     background: url(./background.svg);
@@ -30,7 +30,11 @@ button{
     top: 20vh;
     left: 16vw;
     width: 68vw;
-    border: solid black 3px;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+.center{
+    margin: auto;
 }
 /*
 .panelOpen{
